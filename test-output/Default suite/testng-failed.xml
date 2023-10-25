@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testNGExample.AmazonTestPriorityExample">
+        <methods>
+          <include name="launchApp"/>
+          <include name="payment"/>
+          <include name="closeApp"/>
+          <include name="cancelOrder"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="addItem"/>
+        </methods>
+      </class> <!-- testNGExample.AmazonTestPriorityExample -->
+      <class name="crosssBrowserTest.NOPCmmAPP">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchapp"/>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- crosssBrowserTest.NOPCmmAPP -->
+      <class name="alertExample.HandleAlertExample">
+        <methods>
+          <include name="closeApp"/>
+          <include name="promptAlert"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- alertExample.HandleAlertExample -->
+      <class name="takeScreenshotExample.BaseTest">
+        <methods>
+          <include name="launchapp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- takeScreenshotExample.BaseTest -->
+      <class name="handleframe.DemoApp_Frame">
+        <methods>
+          <include name="verifyImage"/>
+          <include name="launchapp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- handleframe.DemoApp_Frame -->
+      <class name="rutoExample.NOPCommTest">
+        <methods>
+          <include name="verifyAppfeature"/>
+          <include name="closeApp"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- rutoExample.NOPCommTest -->
+      <class name="javascriptExecutorExample.MyntraApp">
+        <methods>
+          <include name="verifyLoginFeature"/>
+          <include name="launchapp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- javascriptExecutorExample.MyntraApp -->
+      <class name="pdfBoxExample.ReadPDFContent2">
+        <methods>
+          <include name="verifyPDFData"/>
+        </methods>
+      </class> <!-- pdfBoxExample.ReadPDFContent2 -->
+      <class name="handleWindowExample.WindowExample_IRCTCApp">
+        <methods>
+          <include name="closeApp"/>
+          <include name="verifyLoginFeature"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- handleWindowExample.WindowExample_IRCTCApp -->
+      <class name="actionExample.DragDropExample">
+        <methods>
+          <include name="launchapp"/>
+          <include name="dragDropExample"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- actionExample.DragDropExample -->
+      <class name="nopComm_configExample.NopComm_ConfExample">
+        <methods>
+          <include name="launchapp"/>
+          <include name="closeApp"/>
+          <include name="verifyLoginFeature"/>
+        </methods>
+      </class> <!-- nopComm_configExample.NopComm_ConfExample -->
+      <class name="ddtExample_HRM.NopComm_DDTTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchapp"/>
+          <include name="verifyLoginFeature"/>
+        </methods>
+      </class> <!-- ddtExample_HRM.NopComm_DDTTest -->
+      <class name="conditionWaitExample.AlertPresentAfterSomeTime">
+        <methods>
+          <include name="dragDropExample"/>
+          <include name="launchapp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- conditionWaitExample.AlertPresentAfterSomeTime -->
+      <class name="pdfBoxExample.ReadPDFContent">
+        <methods>
+          <include name="verifyPDFData"/>
+        </methods>
+      </class> <!-- pdfBoxExample.ReadPDFContent -->
+      <class name="alertExample.HandleAlertExample2">
+        <methods>
+          <include name="closeApp"/>
+          <include name="promptAlert"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- alertExample.HandleAlertExample2 -->
+      <class name="ddtExample.BaseTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- ddtExample.BaseTest -->
+      <class name="WebTableExample.SmapleApp_WebTableExample_XPATH2_JS">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchapp"/>
+          <include name="validateWebTable"/>
+        </methods>
+      </class> <!-- WebTableExample.SmapleApp_WebTableExample_XPATH2_JS -->
+      <class name="exerciseExample.FlipkartExample_ModalExample">
+        <methods>
+          <include name="verifytest"/>
+          <include name="launchapp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- exerciseExample.FlipkartExample_ModalExample -->
+      <class name="conditionWaitExample.ElementVIsibleAfterSometime">
+        <methods>
+          <include name="launchapp"/>
+          <include name="dragDropExample"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- conditionWaitExample.ElementVIsibleAfterSometime -->
+      <class name="testNGExample.AmazonTest">
+        <methods>
+          <include name="login"/>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+          <include name="addItem"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- testNGExample.AmazonTest -->
+      <class name="testNGExample.TestNGAnnotationExample">
+        <methods>
+          <include name="launchApp"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterClass"/>
+          <include name="BeforeClass"/>
+          <include name="BeforeSuite"/>
+          <include name="AfterSuite"/>
+          <include name="AfterMethod"/>
+          <include name="closeApp"/>
+          <include name="addItem"/>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- testNGExample.TestNGAnnotationExample -->
+      <class name="actionExample.RightClickTest">
+        <methods>
+          <include name="rightClickTest"/>
+          <include name="doubleClickTest"/>
+          <include name="closeApp"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- actionExample.RightClickTest -->
+      <class name="excelFileExample.RegisterStudentExcelTest">
+        <methods>
+          <include name="RegistrationDataDrivernTest"/>
+        </methods>
+      </class> <!-- excelFileExample.RegisterStudentExcelTest -->
+      <class name="WebTableExample.BaseTest">
+        <methods>
+          <include name="closingApp"/>
+        </methods>
+      </class> <!-- WebTableExample.BaseTest -->
+      <class name="javascriptExecutorExample.BaseTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- javascriptExecutorExample.BaseTest -->
+      <class name="WebTableExample.SmapleAppDisabled">
+        <methods>
+          <include name="launchApp"/>
+          <include name="verifyInputbox"/>
+          <include name="closingApp"/>
+        </methods>
+      </class> <!-- WebTableExample.SmapleAppDisabled -->
+      <class name="ddtExample.NopComm_DDTTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="verifyLoginFeature"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- ddtExample.NopComm_DDTTest -->
+      <class name="ddtExample_HRM.BaseTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- ddtExample_HRM.BaseTest -->
+      <class name="frameExample.DragDropExample">
+        <methods>
+          <include name="launchapp"/>
+          <include name="dragDropExample"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- frameExample.DragDropExample -->
+      <class name="WebTableExample.SmapleApp_WebTableExample_XPATH">
+        <methods>
+          <include name="validateWebTable"/>
+          <include name="closeApp"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- WebTableExample.SmapleApp_WebTableExample_XPATH -->
+      <class name="javascriptExecutorExample.JavaScriptExample1">
+        <methods>
+          <include name="verifyLoginFeature"/>
+          <include name="closeApp"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- javascriptExecutorExample.JavaScriptExample1 -->
+      <class name="takeScreenshotExample.AmazonTakeScreenshotExample">
+        <methods>
+          <include name="launchapp"/>
+          <include name="closeApp"/>
+          <include name="verifySearchFeature"/>
+        </methods>
+      </class> <!-- takeScreenshotExample.AmazonTakeScreenshotExample -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
